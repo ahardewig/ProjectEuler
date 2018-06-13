@@ -1,3 +1,5 @@
+package Euler001;
+
 /**
  *
  * @author Alex Hardewig
