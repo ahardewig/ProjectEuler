@@ -6,14 +6,14 @@ package Euler002;
  */
 public class Euler002 {
 
-    public long recursiveFibonnaci(){
+    public long recursiveFibonnaci(int number){
         long prevprev;
         long previous = 0;
         long current = 1;
         long total = 0;
 
         while(true){
-            if (current >= 4000000){
+            if (current >= number){
                 return total;
             }
 

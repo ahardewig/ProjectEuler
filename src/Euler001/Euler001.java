@@ -7,9 +7,9 @@ package Euler001;
  */
 public class Euler001 {
 
-    public int findSumOfMultiples() {
+    public int findSumOfMultiples(int number) {
         int total = 0;
-        for (int i = 1; i < 1000; i++){
+        for (int i = 1; i < number; i++){
             if (isMultipleOf3(i) || isMultipleOf5(i)){
                 total += i;
             }
